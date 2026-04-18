@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>开始 on 冷影的AI实验室</title>
+        <link>https://colvin0315.github.io/tags/%E5%BC%80%E5%A7%8B/</link>
+        <description>Recent content in 开始 on 冷影的AI实验室</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://colvin0315.github.io/tags/%E5%BC%80%E5%A7%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>欢迎来到我的Hugo博客</title>
+            <link>https://colvin0315.github.io/posts/first-post/</link>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+            <guid>https://colvin0315.github.io/posts/first-post/</guid>
+            <description>&lt;h2 id=&#34;欢迎&#34;&gt;欢迎&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;这是我的第一篇博客文章！我很高兴能与你分享我的想法和经验。&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于hugo&#34;&gt;关于Hugo&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Hugo是一个用Go语言编写的静态网站生成器，它具有以下优点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;速度快&lt;/strong&gt;: 可以在几毫秒内生成整个网站&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;灵活性强&lt;/strong&gt;: 支持各种内容类型和布局&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;易于部署&lt;/strong&gt;: 生成的是静态HTML文件，可以托管在任何地方&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;无需数据库&lt;/strong&gt;: 所有内容都以Markdown文件形式存储&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;stake主题特点&#34;&gt;Stake主题特点&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Stake是一个专为博客设计的Hugo主题，提供：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎯 简洁的设计&lt;/li&gt;&#xA;&lt;li&gt;📱 完全响应式&lt;/li&gt;&#xA;&lt;li&gt;🚀 快速加载&lt;/li&gt;&#xA;&lt;li&gt;💾 轻量级&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;开始使用&#34;&gt;开始使用&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;如果你想在你的本地机器上运行这个博客，可以执行以下命令：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后在浏览器中打开 &lt;code&gt;http://localhost:1313&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;下一步&#34;&gt;下一步&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;我将继续添加更多的文章和内容。敬请期待！&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;: 你可以通过编辑 &lt;code&gt;/content/posts/&lt;/code&gt; 目录下的Markdown文件来创建新的博客文章。&lt;/p&gt;&#xA;</description>
+        </item></channel>
+</rss>
