@@ -1,0 +1,17 @@
+name: Auto Deploy to Pages
+on:
+  push:
+    branches: ["main"] # 只要 main 分支有更新就触发
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "." # 如果网页在子目录，请修改此处
+      - uses: actions/deploy-pages@v4
