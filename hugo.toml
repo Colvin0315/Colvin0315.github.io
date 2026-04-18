@@ -1,4 +1,4 @@
-baseurl: https://Colvin0315.github.io/
+baseURL = "https://Colvin0315.github.io/"
 languageCode = "zh-cn"
 title = "冷影的 AI 实验室"
 theme = "hugo-theme-stack"
