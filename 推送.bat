@@ -1,5 +1,6 @@
 @echo off
 REM 推送Hugo博客到GitHub的批处理脚本
+REM 适用于 username.github.io 仓库
 
 echo.
 echo ========================================
@@ -17,17 +18,17 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM 停止Hugo服务器（如果运行中）
-echo [步骤1/5] 停止Hugo服务器...
+echo [步骤1/4] 停止Hugo服务器...
 taskkill /F /IM hugo.exe >nul 2>nul
 
-REM 清理旧的public目录
-echo [步骤2/5] 清理旧的构建文件...
-if exist "public" (
-    rmdir /S /Q "public"
+REM 清理旧的docs目录
+echo [步骤2/4] 清理旧的构建文件...
+if exist "docs" (
+    rmdir /S /Q "docs"
 )
 
 REM 构建网站
-echo [步骤3/5] 构建Hugo网站...
+echo [步骤3/4] 构建Hugo网站...
 hugo
 if %ERRORLEVEL% NEQ 0 (
     echo [错误] Hugo构建失败！
@@ -35,16 +36,10 @@ if %ERRORLEVEL% NEQ 0 (
     exit /b 1
 )
 
-REM 提交更改
-echo [步骤4/5] 提交更改到本地仓库...
-git add .
+REM 提交并推送
+echo [步骤4/4] 推送到GitHub...
+git add -A
 git commit -m "Update: %date% %time%"
-if %ERRORLEVEL% NEQ 0 (
-    echo [警告] 没有新的更改需要提交
-)
-
-REM 推送到GitHub
-echo [步骤5/5] 推送到GitHub...
 git push origin main
 if %ERRORLEVEL% NEQ 0 (
     echo [错误] 推送失败！

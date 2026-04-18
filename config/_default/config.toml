@@ -1,8 +1,9 @@
-baseURL = "https://example.com/"
+baseURL = "https://colvin0315.github.io/"
 languageCode = "zh-cn"
 title = "冷影的AI实验室"
 theme = "stack"
 paginate = 10
+publishDir = "docs"
 
 [outputFormats.RSS]
   mediatype = "application/rss+xml"
