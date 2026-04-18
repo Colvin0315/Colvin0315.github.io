@@ -1,0 +1,12 @@
+name = "Stake"
+license = "MIT"
+licenselink = "https://github.com/example/stake/blob/master/LICENSE"
+description = "一个简洁优雅的Hugo主题"
+homepage = "https://github.com/example/stake"
+tags = ["blog", "minimal", "clean"]
+features = ["responsive", "dark-mode", "syntax-highlighting"]
+min_version = "0.87.0"
+
+[author]
+  name = "Theme Author"
+  homepage = "https://example.com"

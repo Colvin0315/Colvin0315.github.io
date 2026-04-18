@@ -1,0 +1,18 @@
+# Hugo
+public/
+resources/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.tmp

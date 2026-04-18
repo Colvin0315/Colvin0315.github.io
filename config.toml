@@ -1,0 +1,32 @@
+baseURL = "https://example.com/"
+languageCode = "zh-cn"
+title = "冷影的AI实验室"
+theme = "stack"
+paginate = 10
+
+[params]
+  description = "一个用Stack主题创建的Hugo博客"
+  author = "冷影"
+  
+  [params.sidebar]
+    avatar = "avatar.png"
+    subtitle = "数学系转LLM"
+    emoji = "🚀"
+  
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 3
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "index"

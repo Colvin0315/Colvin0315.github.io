@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="home">
+  <h2>欢迎来到我的博客</h2>
+  <p>{{ .Site.Params.description }}</p>
+  
+  {{ if .Site.RegularPages }}
+  <h3>最新文章</h3>
+  <ul class="posts-list">
+    {{ range first 10 .Site.RegularPages }}
+    <li class="post-item">
+      <h3 class="post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+      <div class="post-meta">
+        {{ .Date.Format "2006-01-02" }} | 阅读时间: {{ .ReadingTime }} 分钟
+      </div>
+      <div class="post-summary">
+        {{ .Summary }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</section>
+{{ end }}

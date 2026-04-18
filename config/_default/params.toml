@@ -1,0 +1,25 @@
+mainSections = ["post"]
+rssFullContent = true
+
+[footer]
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = ":date_full"
+    lastUpdated = ":date_full"
+
+[sidebar]
+    compact = false
+    avatar  = "avatar.png"
+    subtitle = "数学系转LLM"
+    emoji = "🚀"
+
+[article]
+    headingAnchor = false
+    math          = false
+    toc           = true
+    readingTime   = true
+
+    [article.list]
+        showTags = false
