@@ -2,16 +2,16 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"] # 监听 main 分支的推送
+    branches: ["main"]
+
+# 关键：添加全局环境变量来强制适配 Node 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -20,14 +20,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive # 这一行确保拉取 Stack 主题
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true # Stack 主题通常需要 extended 版本
+          extended: true
 
       - name: Build with Hugo
         run: hugo --minify
